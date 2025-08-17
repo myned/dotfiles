@@ -1,0 +1,382 @@
+add_newline = false
+command_timeout = 60000
+format = "$all$fill$cmd_duration$time$battery$os$line_break$jobs$shell$character"
+palette = "base16"
+right_format = ""
+scan_timeout = 100
+
+[aws]
+symbol = "  "
+
+[battery]
+charging_symbol = "󰂄"
+discharging_symbol = "󰂃"
+empty_symbol = "󰂎"
+format = " [$symbol]($style)"
+full_symbol = "󰁹"
+unknown_symbol = "󰂑"
+
+[[battery.display]]
+style = "bold red"
+threshold = 15
+
+[[battery.display]]
+style = "bold yellow"
+threshold = 30
+
+[buf]
+format = "via [$symbol]($style)"
+symbol = " "
+
+[bun]
+format = "via [$symbol]($style)"
+
+[c]
+symbol = " "
+
+[character]
+error_symbol = "[](bold red)"
+success_symbol = "[](bold)"
+
+[cmake]
+format = "via [$symbol]($style)"
+
+[cmd_duration]
+format = "[󱎫 $duration](#586e75)"
+min_time = 5000
+
+[cobol]
+format = "via [$symbol]($style)"
+
+[conda]
+symbol = " "
+
+[crystal]
+format = "via [$symbol]($style)"
+symbol = " "
+
+[daml]
+format = "via [$symbol]($style)"
+
+[dart]
+format = "via [$symbol]($style)"
+symbol = " "
+
+[deno]
+format = "via [$symbol]($style)"
+
+[directory]
+before_repo_root_style = "bold #586e75"
+fish_style_pwd_dir_length = 1
+format = " [$path]($style)[$read_only]($read_only_style) "
+read_only = " 󰌾"
+repo_root_format = " [$before_root_path]($before_repo_root_style)[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style) "
+repo_root_style = "bold"
+style = "bold #657b83"
+truncation_length = 1
+truncation_symbol = "…/"
+use_os_path_sep = false
+
+[docker_context]
+symbol = " "
+
+[dotnet]
+format = "[$symbol(󰓾 $tfm )]($style)"
+
+[elixir]
+format = "via [$symbol]($style)"
+symbol = " "
+
+[elm]
+format = "via [$symbol]($style)"
+symbol = " "
+
+[erlang]
+format = "via [$symbol]($style)"
+
+[fennel]
+format = "via [$symbol]($style)"
+symbol = " "
+
+[fill]
+symbol = " "
+
+[fossil_branch]
+symbol = " "
+
+[git_branch]
+format = "[$symbol$branch(:$remote_branch)]($style) "
+symbol = " "
+
+[git_commit]
+tag_symbol = "  "
+
+[gleam]
+format = "via [$symbol]($style)"
+
+[golang]
+format = "via [$symbol]($style)"
+symbol = " "
+
+[gradle]
+format = "via [$symbol]($style)"
+symbol = " "
+
+[guix_shell]
+symbol = " "
+
+[haskell]
+symbol = " "
+
+[haxe]
+format = "via [$symbol]($style)"
+symbol = " "
+
+[helm]
+format = "via [$symbol]($style)"
+
+[hg_branch]
+symbol = " "
+
+[hostname]
+format = "[[@](#586e75)$hostname]($style) "
+ssh_symbol = " "
+style = "bold"
+
+[java]
+format = "via [$symbol]($style)"
+symbol = " "
+
+[julia]
+format = "via [$symbol]($style)"
+symbol = " "
+
+[kotlin]
+format = "via [$symbol]($style)"
+symbol = " "
+
+[localip]
+disabled = false
+format = "[$localipv4]($style)"
+
+[lua]
+format = "via [$symbol]($style)"
+symbol = " "
+
+[memory_usage]
+symbol = "󰍛 "
+
+[meson]
+format = "via [$symbol]($style)"
+symbol = "󰔷 "
+
+[nim]
+format = "via [$symbol]($style)"
+symbol = "󰆥 "
+
+[nix_shell]
+symbol = " "
+
+[nodejs]
+format = "via [$symbol]($style)"
+symbol = " "
+
+[ocaml]
+format = "via [$symbol(\\($switch_indicator$switch_name\\) )]($style)"
+symbol = " "
+
+[opa]
+format = "via [$symbol]($style)"
+
+[os]
+disabled = false
+style = "bold"
+
+[os.symbols]
+AIX = "  "
+AlmaLinux = "  "
+Alpaquita = "  "
+Alpine = "  "
+Amazon = "  "
+Android = "  "
+Arch = "  "
+Artix = "  "
+CentOS = "  "
+Debian = "  "
+DragonFly = "  "
+Emscripten = " 󰯁 "
+EndeavourOS = "  "
+Fedora = "  "
+FreeBSD = "  "
+Garuda = "  "
+Gentoo = "  "
+HardenedBSD = " 󰥯 "
+Illumos = "  "
+Kali = "  "
+Linux = " 󰌽 "
+Mabox = "  "
+Macos = "  "
+Manjaro = "  "
+Mariner = "  "
+MidnightBSD = " 󰖔 "
+Mint = " 󰣭 "
+NetBSD = "  "
+NixOS = "  "
+OpenBSD = "  "
+OpenCloudOS = "  "
+OracleLinux = "  "
+Pop = "  "
+Raspbian = "  "
+RedHatEnterprise = "  "
+Redhat = "  "
+Redox = " 󰙨 "
+RockyLinux = "  "
+SUSE = "  "
+Solus = "  "
+Ubuntu = "  "
+Ultramarine = " 󰜃 "
+Unknown = "  "
+Void = "  "
+Windows = "  "
+openEuler = " 󰏒 "
+openSUSE = "  "
+
+[package]
+symbol = "󰏗 "
+
+[palettes.base16]
+base00 = "#002b36"
+base01 = "#073642"
+base02 = "#586e75"
+base03 = "#657b83"
+base04 = "#839496"
+base05 = "#93a1a1"
+base06 = "#eee8d5"
+base07 = "#fdf6e3"
+base08 = "#dc322f"
+base09 = "#cb4b16"
+base0A = "#b58900"
+base0B = "#859900"
+base0C = "#2aa198"
+base0D = "#268bd2"
+base0E = "#6c71c4"
+base0F = "#d33682"
+base10 = "#002b36"
+base11 = "#002b36"
+base12 = "#dc322f"
+base13 = "#b58900"
+base14 = "#859900"
+base15 = "#2aa198"
+base16 = "#268bd2"
+base17 = "#6c71c4"
+black = "#002b36"
+blue = "#268bd2"
+bright-black = "#657b83"
+bright-blue = "#268bd2"
+bright-cyan = "#2aa198"
+bright-green = "#859900"
+bright-magenta = "#6c71c4"
+bright-purple = "#6c71c4"
+bright-red = "#dc322f"
+bright-white = "#fdf6e3"
+bright-yellow = "#b58900"
+brown = "#d33682"
+cyan = "#2aa198"
+green = "#859900"
+magenta = "#6c71c4"
+orange = "#cb4b16"
+purple = "#6c71c4"
+red = "#dc322f"
+white = "#93a1a1"
+yellow = "#b58900"
+
+[perl]
+format = "via [$symbol]($style)"
+symbol = " "
+
+[php]
+format = "via [$symbol]($style)"
+symbol = " "
+
+[pijul_channel]
+symbol = " "
+
+[pulumi]
+format = "via [$symbol$stack]($style)"
+
+[purescript]
+format = "via [$symbol]($style)"
+
+[python]
+format = "via [$symbol]($style)"
+symbol = " "
+
+[quarto]
+format = "via [$symbol]($style)"
+
+[raku]
+format = "via [$symbol]($style)"
+
+[red]
+format = "via [$symbol]($style)"
+
+[rlang]
+format = "via [$symbol]($style)"
+symbol = "󰟔 "
+
+[ruby]
+format = "via [$symbol]($style)"
+symbol = " "
+
+[rust]
+format = "via [$symbol]($style)"
+symbol = "󱘗 "
+
+[scala]
+symbol = " "
+
+[shell]
+bash_indicator = " "
+cmd_indicator = " "
+disabled = false
+elvish_indicator = "󰲋 "
+fish_indicator = " "
+ion_indicator = " "
+nu_indicator = "󰟢 "
+powershell_indicator = " "
+style = "bold"
+tcsh_indicator = " "
+unknown_indicator = " "
+xonsh_indicator = " "
+zsh_indicator = " "
+
+[solidity]
+format = "via [$symbol]($style)"
+
+[swift]
+format = "via [$symbol]($style)"
+symbol = " "
+
+[time]
+disabled = false
+format = " [$time]($style)"
+style = "bold #657b83"
+time_format = "%a %b %-d %-H:%M"
+
+[typst]
+format = "via [$symbol]($style)"
+
+[username]
+format = "[$user]($style)"
+show_always = true
+style_user = "bold #6c71c4"
+
+[vagrant]
+format = "via [$symbol]($style)"
+
+[vlang]
+format = "via [$symbol]($style)"
+
+[zig]
+format = "via [$symbol]($style)"
+symbol = " "
