@@ -1,0 +1,30 @@
+{
+	"Home Manager Option": {
+		"scope": "nix",
+		"prefix": "ho",
+		"description": "Boilerplate Home Manager Option",
+		"body": [
+			"{",
+			"  config,",
+			"  lib,",
+			"  ...",
+			"}:",
+			"with lib; let",
+			"  cfg = config.custom.$1;",
+			"  hm = config.home-manager.users.${config.custom.username};",
+			"in {",
+			"  options.custom.$1 = {",
+			"    enable = mkOption {default = false;};",
+			"  };",
+			"",
+			"  config = mkIf cfg.enable {",
+			"    home-manager.sharedModules = [",
+			"      {",
+			"        $0",
+			"      }",
+			"    ];",
+			"  };",
+			"}"
+		],
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"NixOS Option": {
+		"scope": "nix",
+		"prefix": "no",
+		"description": "Boilerplate NixOS Option",
+		"body": [
+			"{",
+			"  config,",
+			"  lib,",
+			"  ...",
+			"}:",
+			"with lib; let",
+			"  cfg = config.custom.$1;",
+			"in {",
+			"  options.custom.$1 = {",
+			"    enable = mkOption {default = false;};",
+			"  };",
+			"",
+			"  config = mkIf cfg.enable {",
+			"    $0",
+			"  };",
+			"}"
+		],
+	}
+}

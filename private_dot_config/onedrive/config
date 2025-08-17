@@ -1,0 +1,6 @@
+delay_inotify_processing = "true"
+disable_notifications = "true"
+disable_upload_validation = "true"
+force_session_upload = "true"
+skip_dotfiles = "true"
+sync_dir = "~/OneDrive"

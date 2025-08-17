@@ -1,0 +1,29 @@
+{
+  "Nix Develop": {
+    "description": "Boilerplate flake.nix for `nix develop`",
+    "scope": "nix",
+    "prefix": "nd",
+    "body": [
+      "{",
+      "  inputs = {",
+      "    nixpkgs.url = \"github:NixOS/nixpkgs/nixos-24.05\";",
+      "  };",
+      "",
+      "  outputs =",
+      "    inputs:",
+      "    let",
+      "      system = \"x86_64-linux\";",
+      "      pkgs = inputs.nixpkgs.legacyPackages.\\${system};",
+      "    in",
+      "    {",
+      "      #?? nix develop",
+      "      devShells.\\${system}.default = pkgs.mkShell {",
+      "        inputsFrom = [ ];",
+      "        packages = [ ];",
+      "        shellHook = '''';",
+      "      };",
+      "    };",
+      "}",
+    ],
+  }
+}

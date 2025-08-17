@@ -1,0 +1,43 @@
+[
+  {
+    "bindings": {
+      "alt-\\": "workspace::ToggleBottomDock",
+      "alt-a": "agent::ToggleFocus",
+      "alt-c": "collab_panel::ToggleFocus",
+      "alt-escape": "workspace::CloseAllDocks",
+      "alt-f": "project_search::ToggleFocus",
+      "alt-g": "git_panel::ToggleFocus",
+      "alt-p": "project_panel::ToggleFocus",
+      "alt-shift-tab": "workspace::ToggleRightDock",
+      "alt-space": "command_palette::Toggle",
+      "alt-t": "terminal_panel::ToggleFocus",
+      "alt-tab": "workspace::ToggleLeftDock"
+    }
+  },
+  {
+    "bindings": {
+      "alt-backspace": "editor::DeleteLine",
+      "alt-enter": "editor::DuplicateLineDown",
+      "alt-left": "editor::MoveToBeginningOfLine",
+      "alt-right": "editor::MoveToEndOfLine",
+      "alt-shift-enter": "editor::DuplicateLineUp",
+      "ctrl-enter": "editor::NewlineBelow"
+    },
+    "context": "Editor"
+  },
+  {
+    "bindings": {
+      "enter": "editor::Newline"
+    },
+    "context": "Editor && showing_completions"
+  },
+  {
+    "bindings": {
+      "ctrl-s": [
+        "terminal::SendKeystroke",
+        "ctrl-s"
+      ]
+    },
+    "context": "Terminal"
+  }
+]

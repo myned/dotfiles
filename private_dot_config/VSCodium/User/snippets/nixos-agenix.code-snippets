@@ -1,0 +1,18 @@
+{
+	"NixOS Agenix": {
+		"scope": "nix",
+		"prefix": "na",
+		"description": "Boilerplate Agenix Secrets Function",
+		"body": [
+			"age.secrets =",
+			"  let",
+			"    secret = filename: {",
+			"      file = \"${inputs.self}/secrets/\\${filename}\";",
+			"    };",
+			"  in",
+			"  {",
+			"    \"$1\" = secret \"$1\";",
+			"  };",
+		]
+	}
+}

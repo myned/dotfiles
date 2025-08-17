@@ -1,0 +1,5 @@
+{
+  "default-command": 'notify-send --icon="$NTFY_TAGS" "$NTFY_TITLE" "$NTFY_MESSAGE"',
+  "default-host": "https://notify.vpn.bjork.tech",
+  "subscribe": [{ "topic": "status" }],
+}

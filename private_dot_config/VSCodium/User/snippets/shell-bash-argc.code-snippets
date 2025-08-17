@@ -1,0 +1,20 @@
+{
+	"Shell Bash Argc": {
+		"scope": "shellscript",
+		"prefix": "sba",
+		"description": "Boilerplate Bash shell script with argc commands",
+		"body": [
+			"#! /usr/bin/env bash",
+			"",
+			"# @describe $1",
+			"#",
+			"# https://github.com/sigoden/argc",
+			"",
+			"# @meta combine-shorts",
+			"",
+			"$0",
+			"",
+			"eval \"$(argc --argc-eval \"\\$0\" \"$@\")\""
+		],
+	}
+}

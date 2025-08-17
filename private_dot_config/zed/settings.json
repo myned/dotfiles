@@ -1,0 +1,468 @@
+{
+  "agent": {
+    "default_model": {
+      "model": "codegemma:7b",
+      "provider": "ollama"
+    },
+    "default_width": 500
+  },
+  "always_treat_brackets_as_autoclosed": true,
+  "auto_install_extensions": {
+    "ansible": true,
+    "astro": true,
+    "basedpyright": true,
+    "basher": true,
+    "blueprint": true,
+    "caddyfile": true,
+    "colored-zed-icons-theme": true,
+    "csv": true,
+    "docker-compose": true,
+    "dockerfile": true,
+    "env": true,
+    "fish": true,
+    "git-firefly": true,
+    "html": true,
+    "ini": true,
+    "java": true,
+    "jinja2": true,
+    "log": true,
+    "make": true,
+    "nginx": true,
+    "nix": true,
+    "nu": true,
+    "php": true,
+    "powershell": true,
+    "sql": true,
+    "svelte": true,
+    "tmux": true,
+    "toml": true,
+    "unocss": true,
+    "xml": true
+  },
+  "base_keymap": "VSCode",
+  "buffer_font_family": "IosevkaTermSlab Nerd Font Propo",
+  "buffer_font_size": 18.666666666666668,
+  "buffer_line_height": {
+    "custom": 1.5
+  },
+  "chat_panel": {
+    "default_width": 300
+  },
+  "collaboration_panel": {
+    "button": false,
+    "default_width": 300,
+    "dock": "right"
+  },
+  "cursor_blink": false,
+  "edit_predictions": {
+    "disabled_globs": [
+      "**/*.env",
+      "**/*.pem",
+      "**/*.key",
+      "**/*.cert",
+      "**/*.crt",
+      "**/.dev.vars",
+      "**/secrets.yml",
+      "**/secrets/**",
+      "**/tmp/**"
+    ]
+  },
+  "edit_predictions_disabled_in": [
+    "comment"
+  ],
+  "experimental.theme_overrides": {
+    "background": "#073642",
+    "border": "#002b36",
+    "border.variant": "#002b36",
+    "conflict": "#cb4b16",
+    "conflict.background": "#cb4b16d3",
+    "conflict.border": "#cb4b16",
+    "created": "#859900",
+    "created.background": "#85990020",
+    "created.border": "#85990040",
+    "deleted": "#dc322f",
+    "deleted.background": "#dc322f20",
+    "deleted.border": "#dc322f40",
+    "editor.active_wrap_guide": "#073642",
+    "editor.document_highlight.read_background": "#073642",
+    "editor.document_highlight.write_background": "#073642",
+    "editor.invisible": "#657b83",
+    "editor.wrap_guide": "#073642",
+    "element.active": "#657b8320",
+    "element.background": "#002b3600",
+    "element.disabled": "#657b83",
+    "element.hover": "#657b8310",
+    "element.selected": "#657b8340",
+    "ghost_element.active": "#657b8320",
+    "ghost_element.background": "#002b3600",
+    "ghost_element.disabled": "#657b83",
+    "ghost_element.hover": "#657b8310",
+    "ghost_element.selected": "#657b8340",
+    "icon.accent": "#d33682",
+    "panel.background": "#073642",
+    "panel.focused_border": "#d33682",
+    "players": [
+      {
+        "background": "#93a1a140",
+        "cursor": "#93a1a1",
+        "selection": "#93a1a120"
+      }
+    ],
+    "predictive": "#eee8d5",
+    "predictive.background": "#eee8d520",
+    "predictive.border": "#eee8d540",
+    "scrollbar.thumb.background": "#657b8340",
+    "scrollbar.thumb.border": "#657b8300",
+    "scrollbar.thumb.hover_background": "#657b83",
+    "search.match_background": "#657b8340",
+    "status_bar.background": "#002b36",
+    "syntax": {
+      "_expr": {
+        "color": "#b58900"
+      },
+      "_id": {
+        "color": "#93a1a1"
+      },
+      "attribute": {
+        "color": "#93a1a1"
+      },
+      "boolean": {
+        "color": "#cb4b16"
+      },
+      "comment": {
+        "color": "#586e75"
+      },
+      "comment.doc": {
+        "color": "#586e75"
+      },
+      "constant": {
+        "color": "#93a1a1"
+      },
+      "constant.builtin": {
+        "color": "#93a1a1"
+      },
+      "constructor": {
+        "color": "#b58900"
+      },
+      "directive": {
+        "color": "#93a1a1"
+      },
+      "embedded": {
+        "color": "#657b83"
+      },
+      "emphasis": {
+        "color": "#93a1a1"
+      },
+      "emphasis.strong": {
+        "color": "#93a1a1"
+      },
+      "enum": {
+        "color": "#b58900"
+      },
+      "escape": {
+        "color": "#cb4b16"
+      },
+      "function": {
+        "color": "#268bd2"
+      },
+      "function.builtin": {
+        "color": "#268bd2"
+      },
+      "function.call": {
+        "color": "#268bd2"
+      },
+      "function.decorator": {
+        "color": "#268bd2"
+      },
+      "function.magic": {
+        "color": "#268bd2"
+      },
+      "hint": {
+        "color": "#657b83"
+      },
+      "keyword": {
+        "color": "#d33682"
+      },
+      "keyword.exception": {
+        "color": "#d33682"
+      },
+      "label": {
+        "color": "#93a1a1"
+      },
+      "link_text": {
+        "color": "#93a1a1"
+      },
+      "link_uri": {
+        "color": "#93a1a1"
+      },
+      "local": {
+        "color": "#93a1a1"
+      },
+      "markup": {
+        "color": "#93a1a1"
+      },
+      "meta": {
+        "color": "#93a1a1"
+      },
+      "modifier": {
+        "color": "#93a1a1"
+      },
+      "namespace": {
+        "color": "#93a1a1"
+      },
+      "number": {
+        "color": "#2aa198"
+      },
+      "operator": {
+        "color": "#657b83"
+      },
+      "parameter": {
+        "color": "#6c71c4"
+      },
+      "predictive": {
+        "color": "#657b83"
+      },
+      "preproc": {
+        "color": "#93a1a1"
+      },
+      "primary": {
+        "color": "#93a1a1"
+      },
+      "property": {
+        "color": "#93a1a1"
+      },
+      "punctuation": {
+        "color": "#657b83"
+      },
+      "punctuation.bracket": {
+        "color": "#657b83"
+      },
+      "punctuation.delimiter": {
+        "color": "#657b83"
+      },
+      "punctuation.list_marker": {
+        "color": "#657b83"
+      },
+      "punctuation.special": {
+        "color": "#657b83"
+      },
+      "regexp": {
+        "color": "#cb4b16"
+      },
+      "self": {
+        "color": "#93a1a1"
+      },
+      "string": {
+        "color": "#859900"
+      },
+      "string.escape": {
+        "color": "#cb4b16"
+      },
+      "string.regex": {
+        "color": "#cb4b16"
+      },
+      "string.special": {
+        "color": "#cb4b16"
+      },
+      "string.special.symbol": {
+        "color": "#cb4b16"
+      },
+      "strong": {
+        "color": "#93a1a1"
+      },
+      "support": {
+        "color": "#93a1a1"
+      },
+      "symbol": {
+        "color": "#93a1a1"
+      },
+      "tag": {
+        "color": "#93a1a1"
+      },
+      "tag.doctype": {
+        "color": "#93a1a1"
+      },
+      "text": {
+        "color": "#93a1a1"
+      },
+      "text.literal": {
+        "color": "#93a1a1"
+      },
+      "title": {
+        "color": "#93a1a1"
+      },
+      "type": {
+        "color": "#b58900"
+      },
+      "variable": {
+        "color": "#93a1a1"
+      },
+      "variable.member": {
+        "color": "#93a1a1"
+      },
+      "variable.parameter": {
+        "color": "#6c71c4"
+      },
+      "variable.special": {
+        "color": "#93a1a1"
+      },
+      "variant": {
+        "color": "#93a1a1"
+      }
+    },
+    "tab.active_background": "#002b36",
+    "tab.inactive_background": "#073642",
+    "tab_bar.background": "#073642",
+    "text.accent": "#d33682",
+    "title_bar.background": "#002b36",
+    "title_bar.inactive_background": "#002b36"
+  },
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+  "file_types": {
+    "Ansible": [
+      "**/defaults/*.yaml",
+      "**/defaults/*.yml",
+      "**/group_vars/*.yaml",
+      "**/group_vars/*.yml",
+      "**/handlers/*.yaml",
+      "**/handlers/*.yml",
+      "**/meta/*.yaml",
+      "**/meta/*.yml",
+      "**/playbooks/*.yaml",
+      "**/playbooks/*.yml",
+      "**/tasks/*.yaml",
+      "**/tasks/*.yml",
+      "*.ansible.yaml",
+      "*.ansible.yml",
+      "*playbook*.yaml",
+      "*playbook*.yml"
+    ],
+    "JSONC": [
+      "*.hujson"
+    ]
+  },
+  "git": {
+    "inline_blame": {
+      "enabled": false
+    }
+  },
+  "git_panel": {
+    "default_width": 300
+  },
+  "icon_theme": "Colored Zed Icons Theme Dark",
+  "indent_guides": {
+    "active_line_width": 2
+  },
+  "inlay_hints": {
+    "enabled": true
+  },
+  "language_models": {
+    "ollama": {
+      "api_url": "http://localhost:11434"
+    }
+  },
+  "languages": {
+    "Astro": {
+      "formatter": {
+        "external": {
+          "arguments": [
+            "prettier",
+            "--parser=astro"
+          ],
+          "command": "npx"
+        }
+      }
+    },
+    "Caddyfile": {
+      "format_on_save": "on",
+      "formatter": {
+        "external": {
+          "arguments": [
+            "fmt",
+            "-"
+          ],
+          "command": "caddy"
+        }
+      },
+      "tab_size": 2
+    },
+    "Markdown": {
+      "format_on_save": "on",
+      "remove_trailing_whitespace_on_save": false
+    },
+    "Nix": {
+      "language_servers": [
+        "nil",
+        "!nixd"
+      ]
+    }
+  },
+  "load_direnv": "shell_hook",
+  "lsp": {
+    "nil": {
+      "initialization_options": {
+        "formatting": {
+          "command": [
+            "alejandra"
+          ]
+        }
+      }
+    }
+  },
+  "middle_click_paste": false,
+  "notification_panel": {
+    "default_width": 300
+  },
+  "outline_panel": {
+    "default_width": 300,
+    "dock": "right",
+    "indent_size": 10
+  },
+  "preferred_line_length": 120,
+  "project_panel": {
+    "auto_fold_dirs": true,
+    "auto_reveal_entries": true,
+    "default_width": 300,
+    "entry_spacing": "comfortable",
+    "indent_guides": {
+      "show": "never"
+    },
+    "indent_size": 10,
+    "scrollbar": {
+      "show": "never"
+    }
+  },
+  "seed_search_query_from_cursor": "selection",
+  "show_edit_predictions": false,
+  "show_signature_help_after_edits": true,
+  "show_whitespaces": "selection",
+  "tab_size": 2,
+  "tabs": {
+    "git_status": true,
+    "show_diagnostics": "all"
+  },
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": true
+  },
+  "terminal": {
+    "env": {
+      "EDITOR": "zeditor --wait"
+    },
+    "line_height": "standard"
+  },
+  "theme": "Base16 Solarized Dark",
+  "title_bar": {
+    "show_branch_icon": true,
+    "show_branch_name": true,
+    "show_menus": false,
+    "show_onboarding_banner": false,
+    "show_project_items": true,
+    "show_sign_in": false,
+    "show_user_picture": false
+  },
+  "ui_font_family": "Arvo",
+  "ui_font_size": 19
+}

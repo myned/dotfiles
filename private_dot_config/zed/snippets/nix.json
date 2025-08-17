@@ -1,0 +1,212 @@
+{
+  "Home Manager Option": {
+    "prefix": "ho",
+    "description": "Home Manager Option",
+    "body": [
+      "{",
+      "  config,",
+      "  lib,",
+      "  ...",
+      "}:",
+      "with lib; let",
+      "  cfg = config.custom.$1.$2;",
+      "  hm = config.home-manager.users.\\${config.custom.username};",
+      "in {",
+      "  options.custom.$1.$2 = {",
+      "    enable = mkEnableOption \"$2\";",
+      "  };",
+      "",
+      "  config = mkIf cfg.enable {",
+      "    home-manager.users.\\${config.custom.username} = {",
+      "      $0",
+      "    };",
+      "  };",
+      "}"
+    ]
+  },
+
+  "NixOS Agenix": {
+    "prefix": "na",
+    "description": "NixOS Agenix",
+    "body": [
+      "age.secrets = listToAttrs (map (name: {",
+      "    inherit name;",
+      "    value = {file = \"\\${inputs.self}/secrets/\\${name}\";};",
+      "  })",
+      "  [",
+      "    \"\\${config.custom.hostname}/$1/.env\"",
+      "  ]);"
+    ]
+  },
+
+  "NixOS Container Arion": {
+    "prefix": "nca",
+    "description": "NixOS Container Arion",
+    "body": [
+      "{",
+      "  config,",
+      "  inputs,",
+      "  lib,",
+      "  ...",
+      "}:",
+      "with lib; let",
+      "  cfg = config.custom.containers.$1;",
+      "in {",
+      "  options.custom.containers.$1 = {",
+      "    enable = mkEnableOption \"$1\";",
+      "  };",
+      "",
+      "    #?? arion-$1 pull",
+      "    environment.shellAliases.arion-$1 = \"sudo arion --prebuilt-file \\${config.virtualisation.arion.projects.$1.settings.out.dockerComposeYaml}\";",
+      "",
+      "    virtualisation.arion.projects.$1.settings.services = {",
+      "      $1.service = {",
+      "        container_name = \"$1\";",
+      "        depends_on = [\"\"];",
+      "        env_file = [config.age.secrets.\"\\${config.custom.hostname}/$1/.env\".path];",
+      "        image = \"$1\";",
+      "        ports = [\"\"];",
+      "        restart = \"unless-stopped\";",
+      "        volumes = [\"\\${config.custom.containers.directory}/$1/data:/data\"];",
+      "      };",
+      "    };",
+      "",
+      "    age.secrets = listToAttrs (map (name: {",
+      "        inherit name;",
+      "        value = {file = \"\\${inputs.self}/secrets/\\${name}\";};",
+      "      })",
+      "      [",
+      "        \"\\${config.custom.hostname}/$1/.env\"",
+      "      ]);",
+      "  };",
+      "}"
+    ]
+  },
+
+  "NixOS Container Arion Tmpfiles": {
+    "prefix": "ncat",
+    "description": "NixOS Container Arion Tmpfiles",
+    "body": [
+      "#?? arion-$1 run -- --rm --entrypoint=id $1",
+      "systemd.tmpfiles.settings.$1 = let",
+      "  owner = mode: {",
+      "    inherit mode;",
+      "    user = \"\"; # $1",
+      "    group = \"\"; # $1",
+      "  };",
+      "in {",
+      "  \"\\${config.custom.containers.directory}/$1/data\" = {",
+      "    d = owner \"0700\"; # -rwx------",
+      "    z = owner \"0700\"; # -rwx------",
+      "  };",
+      "};"
+    ]
+  },
+
+  "NixOS Container Arion VPN Gluetun": {
+    "prefix": "ncavg",
+    "description": "NixOS Container Arion VPN Gluetun",
+    "body": [
+      "# https://github.com/qdm12/gluetun",
+      "# https://github.com/qdm12/gluetun-wiki",
+      "vpn.service = {",
+      "  container_name = \"$1-vpn\";",
+      "  devices = [\"/dev/net/tun:/dev/net/tun\"];",
+      "  env_file = [config.age.secrets.\"common/gluetun/container.env\".path];",
+      "  hostname = \"\\${config.custom.hostname}-$1\";",
+      "  image = \"qmcgaw/gluetun:v3.40.0\"; # https://hub.docker.com/r/qmcgaw/gluetun/tags",
+      "  restart = \"unless-stopped\";",
+      "",
+      "  capabilities = {",
+      "    NET_ADMIN = true;",
+      "  };",
+      "};"
+    ]
+  },
+
+  "NixOS Container Arion VPN Tailscale": {
+    "prefix": "ncavt",
+    "description": "NixOS Container Arion VPN Tailscale",
+    "body": [
+      "# https://tailscale.com/kb/1282/docker",
+      "vpn.service = {",
+      "  container_name = \"$1-vpn\";",
+      "  devices = [\"/dev/net/tun:/dev/net/tun\"];",
+      "  env_file = [config.age.secrets.\"common/tailscale/container.env\".path];",
+      "  hostname = \"\\${config.custom.hostname}-$1\";",
+      "  image = \"ghcr.io/tailscale/tailscale:v1.84.3\"; # https://github.com/tailscale/tailscale/pkgs/container/tailscale",
+      "  restart = \"unless-stopped\";",
+      "  volumes = [\"\\${config.custom.containers.directory}/$1/vpn:/var/lib/tailscale\"];",
+      "",
+      "  capabilities = {",
+      "    NET_ADMIN = true;",
+      "  };",
+      "};"
+    ]
+  },
+
+  "Nix Develop": {
+    "prefix": "nd",
+    "description": "Nix Develop",
+    "body": [
+      "{",
+      "  inputs = {",
+      "    nixpkgs.url = \"github:NixOS/nixpkgs/nixos-24.05\";",
+      "  };",
+      "",
+      "  outputs =",
+      "    inputs:",
+      "    let",
+      "      system = \"x86_64-linux\";",
+      "      pkgs = inputs.nixpkgs.legacyPackages.\\${system};",
+      "    in",
+      "    {",
+      "      #?? nix develop",
+      "      devShells.\\${system}.default = pkgs.mkShell {",
+      "        inputsFrom = [ ];",
+      "        packages = [ ];",
+      "        shellHook = '''';",
+      "      };",
+      "    };",
+      "}"
+    ]
+  },
+
+  "NixOS Option": {
+    "prefix": "no",
+    "description": "NixOS Option",
+    "body": [
+      "{",
+      "  config,",
+      "  lib,",
+      "  ...",
+      "}:",
+      "with lib; let",
+      "  cfg = config.custom.$1.$2;",
+      "in {",
+      "  options.custom.$1.$2 = {",
+      "    enable = mkEnableOption \"$2\";",
+      "  };",
+      "",
+      "  config = mkIf cfg.enable {",
+      "    $0",
+      "  };",
+      "}"
+    ]
+  },
+
+  "Write Shell Application": {
+    "prefix": "wsa",
+    "description": "Write Shell Application",
+    "body": [
+      "$1 = getExe (pkgs.writeShellApplication {",
+      "  name = \"$1.sh\";",
+      "  text = readFile ./$1.sh;",
+      "",
+      "  runtimeInputs = with pkgs; [",
+      "    coreutils",
+      "  ];",
+      "});"
+    ]
+  }
+}
