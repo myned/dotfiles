@@ -17,6 +17,7 @@ user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false);
 user_pref("browser.ctrlTab.sortByRecentlyUsed", false);
 user_pref("browser.dataFeatureRecommendations.enabled", false);
 user_pref("browser.discovery.enabled", false);
+user_pref("browser.display.use_document_fonts", 0);
 user_pref("browser.download.alwaysOpenPanel", true);
 user_pref("browser.download.always_ask_before_handling_new_types", false);
 user_pref("browser.download.autohideButton", true);
