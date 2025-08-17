@@ -1,0 +1,68 @@
+[alias]
+	graph = "log --graph --oneline --decorate"
+
+[commit]
+	gpgSign = true
+
+[diff]
+	algorithm = "histogram"
+	colorMoved = true
+
+[fetch]
+	prune = true
+
+[filter "lfs"]
+	clean = "git-lfs clean -- %f"
+	process = "git-lfs filter-process"
+	required = true
+	smudge = "git-lfs smudge -- %f"
+
+[format]
+	signOff = true
+
+[gpg]
+	format = "openpgp"
+
+[help]
+	autoCorrect = "prompt"
+
+[init]
+	defaultBranch = "master"
+
+[merge]
+	conflictStyle = "zdiff3"
+
+[pull]
+	rebase = true
+
+[push]
+	autoSetupRemote = true
+
+[rebase]
+	autoSquash = true
+	autoStash = true
+
+[rerere]
+	enabled = true
+
+[sendemail "myned"]
+	from = "Myned <myned@bjork.tech>"
+	smtpEncryption = "ssl"
+	smtpServer = "smtp.fastmail.com"
+	smtpServerPort = 465
+	smtpSslCertPath = "/etc/ssl/certs/ca-certificates.crt"
+	smtpUser = "myned@bjork.tech"
+
+[submodule]
+	recurse = true
+
+[tag]
+	gpgSign = true
+
+[transfer]
+	fsckObjects = true
+
+[user]
+	email = "dev@bjork.tech"
+	name = "Myned"
+	signingKey = "C7224454F7881A34"
