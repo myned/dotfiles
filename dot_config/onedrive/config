@@ -1,0 +1,5 @@
+delay_inotify_processing = "true"
+disable_upload_validation = "true"
+force_session_upload = "true"
+local_first = "true"
+sync_dir = "~/OneDrive"
