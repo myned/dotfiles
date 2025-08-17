@@ -120,6 +120,10 @@ user_pref("extensions.pictureinpicture.enable_picture_in_picture_overrides", tru
 user_pref("extensions.pocket.enabled", false);
 user_pref("extensions.update.autoUpdateDefault", false);
 user_pref("extensions.update.enabled", false);
+user_pref("font.default.x-western", "sans-serif");
+user_pref("font.name.monospace.x-western", "IosevkaTermSlab NFP Medium");
+user_pref("font.name.sans-serif.x-western", "Arvo");
+user_pref("font.name.serif.x-western", "Lora");
 user_pref("full-screen-api.ignore-widgets", true);
 user_pref("full-screen-api.warning.delay", -1);
 user_pref("full-screen-api.warning.timeout", 0);
