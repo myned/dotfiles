@@ -1,4 +1,15 @@
 # https://www.chezmoi.io/reference/configuration-file/variables/
 # https://www.chezmoi.io/reference/special-files/chezmoi-format-tmpl/
+
+# https://www.chezmoi.io/user-guide/tools/merge/
+# https://www.chezmoi.io/user-guide/frequently-asked-questions/usage/#how-do-i-use-tools-that-i-installed-with-flatpak
 merge:
-  command: meld
+  command: flatpak
+  args:
+    - run
+    - --filesystem=~/.var/app
+    - --filesystem=/tmp
+    - org.gnome.meld
+    - '{{ "{{ .Destination }}" }}'
+    - '{{ "{{ .Target }}" }}'
+    - '{{ "{{ .Source }}" }}'
