@@ -67,9 +67,7 @@
       "**/tmp/**"
     ]
   },
-  "edit_predictions_disabled_in": [
-    "comment"
-  ],
+  "edit_predictions_disabled_in": ["comment"],
   "experimental.theme_overrides": {
     "background": "#073642",
     "border": "#002b36",
@@ -339,9 +337,7 @@
       "*playbook*.yaml",
       "*playbook*.yml"
     ],
-    "JSONC": [
-      "*.hujson"
-    ]
+    "JSONC": ["*.hujson"]
   },
   "git": {
     "inline_blame": {
@@ -367,10 +363,7 @@
     "Astro": {
       "formatter": {
         "external": {
-          "arguments": [
-            "prettier",
-            "--parser=astro"
-          ],
+          "arguments": ["prettier", "--parser=astro"],
           "command": "npx"
         }
       }
@@ -379,10 +372,7 @@
       "format_on_save": "on",
       "formatter": {
         "external": {
-          "arguments": [
-            "fmt",
-            "-"
-          ],
+          "arguments": ["fmt", "-"],
           "command": "caddy"
         }
       },
@@ -393,10 +383,7 @@
       "remove_trailing_whitespace_on_save": false
     },
     "Nix": {
-      "language_servers": [
-        "nil",
-        "!nixd"
-      ]
+      "language_servers": ["nil", "!nixd"]
     }
   },
   "load_direnv": "shell_hook",
@@ -404,9 +391,7 @@
     "nil": {
       "initialization_options": {
         "formatting": {
-          "command": [
-            "alejandra"
-          ]
+          "command": ["alejandra"]
         }
       }
     }
@@ -422,7 +407,7 @@
   },
   "preferred_line_length": 120,
   "project_panel": {
-    "auto_fold_dirs": true,
+    "auto_fold_dirs": false,
     "auto_reveal_entries": true,
     "default_width": 300,
     "entry_spacing": "comfortable",

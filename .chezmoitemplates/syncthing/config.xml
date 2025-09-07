@@ -1,4 +1,4 @@
-<configuration version="37">
+<configuration version="51">
     <folder id="2hmna-vfap9" label="SYNC/windows" path="~/SYNC/windows" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" fsWatcherTimeoutS="0" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
         <device id="AZZZVMU-G2WA5T7-CAAAULE-2N6SVJL-RWN6RIE-THJRG6Y-QRDZ2LP-56K7BQ2" introducedBy="">
@@ -8,6 +8,9 @@
             <encryptionPassword></encryptionPassword>
         </device>
         <device id="UFLECA5-QQUKD5J-FQB55TE-YKKHD37-VT5ASXU-4EGUZNV-KW7Z434-FBI7CQ2" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
+        <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <minDiskFree unit="%">1</minDiskFree>
@@ -24,15 +27,14 @@
         <ignoreDelete>false</ignoreDelete>
         <scanProgressIntervalS>0</scanProgressIntervalS>
         <pullerPauseS>0</pullerPauseS>
+        <pullerDelayS>1</pullerDelayS>
         <maxConflicts>10</maxConflicts>
         <disableSparseFiles>false</disableSparseFiles>
-        <disableTempIndexes>false</disableTempIndexes>
         <paused>false</paused>
-        <weakHashThresholdPct>25</weakHashThresholdPct>
         <markerName>.stfolder</markerName>
         <copyOwnershipFromParent>false</copyOwnershipFromParent>
         <modTimeWindowS>0</modTimeWindowS>
-        <maxConcurrentWrites>2</maxConcurrentWrites>
+        <maxConcurrentWrites>16</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
         <copyRangeMethod>standard</copyRangeMethod>
@@ -58,6 +60,9 @@
         <device id="UFLECA5-QQUKD5J-FQB55TE-YKKHD37-VT5ASXU-4EGUZNV-KW7Z434-FBI7CQ2" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
+        <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
         <device id="6ER5UMP-KVYYKVY-AL5NAC6-W4KRXTB-UYRQG4R-AFWK66C-RWOULMW-EATTVQV" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
@@ -75,15 +80,14 @@
         <ignoreDelete>false</ignoreDelete>
         <scanProgressIntervalS>0</scanProgressIntervalS>
         <pullerPauseS>0</pullerPauseS>
+        <pullerDelayS>1</pullerDelayS>
         <maxConflicts>10</maxConflicts>
         <disableSparseFiles>false</disableSparseFiles>
-        <disableTempIndexes>false</disableTempIndexes>
         <paused>false</paused>
-        <weakHashThresholdPct>25</weakHashThresholdPct>
         <markerName>.stfolder</markerName>
         <copyOwnershipFromParent>false</copyOwnershipFromParent>
         <modTimeWindowS>0</modTimeWindowS>
-        <maxConcurrentWrites>2</maxConcurrentWrites>
+        <maxConcurrentWrites>16</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
         <copyRangeMethod>standard</copyRangeMethod>
@@ -109,6 +113,9 @@
         <device id="UFLECA5-QQUKD5J-FQB55TE-YKKHD37-VT5ASXU-4EGUZNV-KW7Z434-FBI7CQ2" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
+        <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
         <device id="6ER5UMP-KVYYKVY-AL5NAC6-W4KRXTB-UYRQG4R-AFWK66C-RWOULMW-EATTVQV" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
@@ -126,15 +133,14 @@
         <ignoreDelete>false</ignoreDelete>
         <scanProgressIntervalS>0</scanProgressIntervalS>
         <pullerPauseS>0</pullerPauseS>
+        <pullerDelayS>1</pullerDelayS>
         <maxConflicts>10</maxConflicts>
         <disableSparseFiles>false</disableSparseFiles>
-        <disableTempIndexes>false</disableTempIndexes>
         <paused>false</paused>
-        <weakHashThresholdPct>25</weakHashThresholdPct>
         <markerName>.stfolder</markerName>
         <copyOwnershipFromParent>false</copyOwnershipFromParent>
         <modTimeWindowS>0</modTimeWindowS>
-        <maxConcurrentWrites>2</maxConcurrentWrites>
+        <maxConcurrentWrites>16</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
         <copyRangeMethod>standard</copyRangeMethod>
@@ -163,6 +169,9 @@
         <device id="UFLECA5-QQUKD5J-FQB55TE-YKKHD37-VT5ASXU-4EGUZNV-KW7Z434-FBI7CQ2" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
+        <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
         <device id="6ER5UMP-KVYYKVY-AL5NAC6-W4KRXTB-UYRQG4R-AFWK66C-RWOULMW-EATTVQV" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
@@ -180,15 +189,14 @@
         <ignoreDelete>false</ignoreDelete>
         <scanProgressIntervalS>0</scanProgressIntervalS>
         <pullerPauseS>0</pullerPauseS>
+        <pullerDelayS>1</pullerDelayS>
         <maxConflicts>10</maxConflicts>
         <disableSparseFiles>false</disableSparseFiles>
-        <disableTempIndexes>false</disableTempIndexes>
         <paused>false</paused>
-        <weakHashThresholdPct>25</weakHashThresholdPct>
         <markerName>.stfolder</markerName>
         <copyOwnershipFromParent>false</copyOwnershipFromParent>
         <modTimeWindowS>0</modTimeWindowS>
-        <maxConcurrentWrites>2</maxConcurrentWrites>
+        <maxConcurrentWrites>16</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
         <copyRangeMethod>standard</copyRangeMethod>
@@ -214,6 +222,9 @@
         <device id="UFLECA5-QQUKD5J-FQB55TE-YKKHD37-VT5ASXU-4EGUZNV-KW7Z434-FBI7CQ2" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
+        <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
         <device id="6ER5UMP-KVYYKVY-AL5NAC6-W4KRXTB-UYRQG4R-AFWK66C-RWOULMW-EATTVQV" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
@@ -231,15 +242,14 @@
         <ignoreDelete>false</ignoreDelete>
         <scanProgressIntervalS>0</scanProgressIntervalS>
         <pullerPauseS>0</pullerPauseS>
+        <pullerDelayS>1</pullerDelayS>
         <maxConflicts>10</maxConflicts>
         <disableSparseFiles>false</disableSparseFiles>
-        <disableTempIndexes>false</disableTempIndexes>
         <paused>false</paused>
-        <weakHashThresholdPct>25</weakHashThresholdPct>
         <markerName>.stfolder</markerName>
         <copyOwnershipFromParent>false</copyOwnershipFromParent>
         <modTimeWindowS>0</modTimeWindowS>
-        <maxConcurrentWrites>2</maxConcurrentWrites>
+        <maxConcurrentWrites>16</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
         <copyRangeMethod>standard</copyRangeMethod>
@@ -271,6 +281,9 @@
         <device id="4JS6YSF-OBZFPYW-B3OUF4G-R6DVOZ4-KFAVGFY-NT4J223-E44HK3D-GPYAFQP" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
+        <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
         <minDiskFree unit="%">1</minDiskFree>
         <versioning type="trashcan">
             <param key="cleanoutDays" val="7"></param>
@@ -285,15 +298,14 @@
         <ignoreDelete>false</ignoreDelete>
         <scanProgressIntervalS>0</scanProgressIntervalS>
         <pullerPauseS>0</pullerPauseS>
+        <pullerDelayS>1</pullerDelayS>
         <maxConflicts>10</maxConflicts>
         <disableSparseFiles>false</disableSparseFiles>
-        <disableTempIndexes>false</disableTempIndexes>
         <paused>false</paused>
-        <weakHashThresholdPct>25</weakHashThresholdPct>
         <markerName>.stfolder</markerName>
         <copyOwnershipFromParent>false</copyOwnershipFromParent>
         <modTimeWindowS>0</modTimeWindowS>
-        <maxConcurrentWrites>2</maxConcurrentWrites>
+        <maxConcurrentWrites>16</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
         <copyRangeMethod>standard</copyRangeMethod>
@@ -319,6 +331,9 @@
         <device id="UFLECA5-QQUKD5J-FQB55TE-YKKHD37-VT5ASXU-4EGUZNV-KW7Z434-FBI7CQ2" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
+        <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
         <device id="6ER5UMP-KVYYKVY-AL5NAC6-W4KRXTB-UYRQG4R-AFWK66C-RWOULMW-EATTVQV" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
@@ -336,15 +351,14 @@
         <ignoreDelete>false</ignoreDelete>
         <scanProgressIntervalS>0</scanProgressIntervalS>
         <pullerPauseS>0</pullerPauseS>
+        <pullerDelayS>1</pullerDelayS>
         <maxConflicts>10</maxConflicts>
         <disableSparseFiles>false</disableSparseFiles>
-        <disableTempIndexes>false</disableTempIndexes>
         <paused>false</paused>
-        <weakHashThresholdPct>25</weakHashThresholdPct>
         <markerName>.stfolder</markerName>
         <copyOwnershipFromParent>false</copyOwnershipFromParent>
         <modTimeWindowS>0</modTimeWindowS>
-        <maxConcurrentWrites>2</maxConcurrentWrites>
+        <maxConcurrentWrites>16</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
         <copyRangeMethod>standard</copyRangeMethod>
@@ -370,6 +384,9 @@
         <device id="UFLECA5-QQUKD5J-FQB55TE-YKKHD37-VT5ASXU-4EGUZNV-KW7Z434-FBI7CQ2" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
+        <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
         <minDiskFree unit="%">1</minDiskFree>
         <versioning type="trashcan">
             <param key="cleanoutDays" val="7"></param>
@@ -384,15 +401,14 @@
         <ignoreDelete>false</ignoreDelete>
         <scanProgressIntervalS>0</scanProgressIntervalS>
         <pullerPauseS>0</pullerPauseS>
+        <pullerDelayS>1</pullerDelayS>
         <maxConflicts>10</maxConflicts>
         <disableSparseFiles>false</disableSparseFiles>
-        <disableTempIndexes>false</disableTempIndexes>
         <paused>false</paused>
-        <weakHashThresholdPct>25</weakHashThresholdPct>
         <markerName>.stfolder</markerName>
         <copyOwnershipFromParent>false</copyOwnershipFromParent>
         <modTimeWindowS>0</modTimeWindowS>
-        <maxConcurrentWrites>2</maxConcurrentWrites>
+        <maxConcurrentWrites>16</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
         <copyRangeMethod>standard</copyRangeMethod>
@@ -424,6 +440,9 @@
         <device id="4JS6YSF-OBZFPYW-B3OUF4G-R6DVOZ4-KFAVGFY-NT4J223-E44HK3D-GPYAFQP" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
+        <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
         <minDiskFree unit="%">1</minDiskFree>
         <versioning type="trashcan">
             <param key="cleanoutDays" val="7"></param>
@@ -438,15 +457,14 @@
         <ignoreDelete>false</ignoreDelete>
         <scanProgressIntervalS>0</scanProgressIntervalS>
         <pullerPauseS>0</pullerPauseS>
+        <pullerDelayS>1</pullerDelayS>
         <maxConflicts>10</maxConflicts>
         <disableSparseFiles>false</disableSparseFiles>
-        <disableTempIndexes>false</disableTempIndexes>
         <paused>false</paused>
-        <weakHashThresholdPct>25</weakHashThresholdPct>
         <markerName>.stfolder</markerName>
         <copyOwnershipFromParent>false</copyOwnershipFromParent>
         <modTimeWindowS>0</modTimeWindowS>
-        <maxConcurrentWrites>2</maxConcurrentWrites>
+        <maxConcurrentWrites>16</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
         <copyRangeMethod>standard</copyRangeMethod>
@@ -472,6 +490,9 @@
         <device id="UFLECA5-QQUKD5J-FQB55TE-YKKHD37-VT5ASXU-4EGUZNV-KW7Z434-FBI7CQ2" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
+        <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
         <minDiskFree unit="%">1</minDiskFree>
         <versioning type="trashcan">
             <param key="cleanoutDays" val="7"></param>
@@ -486,15 +507,14 @@
         <ignoreDelete>false</ignoreDelete>
         <scanProgressIntervalS>0</scanProgressIntervalS>
         <pullerPauseS>0</pullerPauseS>
+        <pullerDelayS>1</pullerDelayS>
         <maxConflicts>10</maxConflicts>
         <disableSparseFiles>false</disableSparseFiles>
-        <disableTempIndexes>false</disableTempIndexes>
         <paused>false</paused>
-        <weakHashThresholdPct>25</weakHashThresholdPct>
         <markerName>.stfolder</markerName>
         <copyOwnershipFromParent>false</copyOwnershipFromParent>
         <modTimeWindowS>0</modTimeWindowS>
-        <maxConcurrentWrites>2</maxConcurrentWrites>
+        <maxConcurrentWrites>16</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
         <copyRangeMethod>standard</copyRangeMethod>
@@ -520,6 +540,9 @@
         <device id="UFLECA5-QQUKD5J-FQB55TE-YKKHD37-VT5ASXU-4EGUZNV-KW7Z434-FBI7CQ2" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
+        <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
         <device id="6ER5UMP-KVYYKVY-AL5NAC6-W4KRXTB-UYRQG4R-AFWK66C-RWOULMW-EATTVQV" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
@@ -537,15 +560,14 @@
         <ignoreDelete>false</ignoreDelete>
         <scanProgressIntervalS>0</scanProgressIntervalS>
         <pullerPauseS>0</pullerPauseS>
+        <pullerDelayS>1</pullerDelayS>
         <maxConflicts>10</maxConflicts>
         <disableSparseFiles>false</disableSparseFiles>
-        <disableTempIndexes>false</disableTempIndexes>
         <paused>false</paused>
-        <weakHashThresholdPct>25</weakHashThresholdPct>
         <markerName>.stfolder</markerName>
         <copyOwnershipFromParent>false</copyOwnershipFromParent>
         <modTimeWindowS>0</modTimeWindowS>
-        <maxConcurrentWrites>2</maxConcurrentWrites>
+        <maxConcurrentWrites>16</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
         <copyRangeMethod>standard</copyRangeMethod>
@@ -577,6 +599,9 @@
         <device id="4JS6YSF-OBZFPYW-B3OUF4G-R6DVOZ4-KFAVGFY-NT4J223-E44HK3D-GPYAFQP" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
+        <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
         <minDiskFree unit="%">1</minDiskFree>
         <versioning type="trashcan">
             <param key="cleanoutDays" val="7"></param>
@@ -591,15 +616,14 @@
         <ignoreDelete>false</ignoreDelete>
         <scanProgressIntervalS>0</scanProgressIntervalS>
         <pullerPauseS>0</pullerPauseS>
+        <pullerDelayS>1</pullerDelayS>
         <maxConflicts>10</maxConflicts>
         <disableSparseFiles>false</disableSparseFiles>
-        <disableTempIndexes>false</disableTempIndexes>
         <paused>false</paused>
-        <weakHashThresholdPct>25</weakHashThresholdPct>
         <markerName>.stfolder</markerName>
         <copyOwnershipFromParent>false</copyOwnershipFromParent>
         <modTimeWindowS>0</modTimeWindowS>
-        <maxConcurrentWrites>2</maxConcurrentWrites>
+        <maxConcurrentWrites>16</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
         <copyRangeMethod>standard</copyRangeMethod>
@@ -625,6 +649,9 @@
         <device id="UFLECA5-QQUKD5J-FQB55TE-YKKHD37-VT5ASXU-4EGUZNV-KW7Z434-FBI7CQ2" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
+        <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
         <device id="6ER5UMP-KVYYKVY-AL5NAC6-W4KRXTB-UYRQG4R-AFWK66C-RWOULMW-EATTVQV" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
@@ -642,15 +669,14 @@
         <ignoreDelete>false</ignoreDelete>
         <scanProgressIntervalS>0</scanProgressIntervalS>
         <pullerPauseS>0</pullerPauseS>
+        <pullerDelayS>1</pullerDelayS>
         <maxConflicts>10</maxConflicts>
         <disableSparseFiles>false</disableSparseFiles>
-        <disableTempIndexes>false</disableTempIndexes>
         <paused>false</paused>
-        <weakHashThresholdPct>25</weakHashThresholdPct>
         <markerName>.stfolder</markerName>
         <copyOwnershipFromParent>false</copyOwnershipFromParent>
         <modTimeWindowS>0</modTimeWindowS>
-        <maxConcurrentWrites>2</maxConcurrentWrites>
+        <maxConcurrentWrites>16</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
         <copyRangeMethod>standard</copyRangeMethod>
@@ -676,6 +702,9 @@
         <device id="UFLECA5-QQUKD5J-FQB55TE-YKKHD37-VT5ASXU-4EGUZNV-KW7Z434-FBI7CQ2" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
+        <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
         <minDiskFree unit="%">1</minDiskFree>
         <versioning type="trashcan">
             <param key="cleanoutDays" val="7"></param>
@@ -690,15 +719,14 @@
         <ignoreDelete>false</ignoreDelete>
         <scanProgressIntervalS>0</scanProgressIntervalS>
         <pullerPauseS>0</pullerPauseS>
+        <pullerDelayS>1</pullerDelayS>
         <maxConflicts>10</maxConflicts>
         <disableSparseFiles>false</disableSparseFiles>
-        <disableTempIndexes>false</disableTempIndexes>
         <paused>false</paused>
-        <weakHashThresholdPct>25</weakHashThresholdPct>
         <markerName>.stfolder</markerName>
         <copyOwnershipFromParent>false</copyOwnershipFromParent>
         <modTimeWindowS>0</modTimeWindowS>
-        <maxConcurrentWrites>2</maxConcurrentWrites>
+        <maxConcurrentWrites>16</maxConcurrentWrites>
         <disableFsync>false</disableFsync>
         <blockPullOrder>standard</blockPullOrder>
         <copyRangeMethod>standard</copyRangeMethod>
@@ -779,6 +807,17 @@
         <remoteGUIPort>0</remoteGUIPort>
         <numConnections>0</numConnections>
     </device>
+    <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" name="myork" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
+        <address>dynamic</address>
+        <paused>false</paused>
+        <autoAcceptFolders>false</autoAcceptFolders>
+        <maxSendKbps>0</maxSendKbps>
+        <maxRecvKbps>0</maxRecvKbps>
+        <maxRequestKiB>0</maxRequestKiB>
+        <untrusted>false</untrusted>
+        <remoteGUIPort>0</remoteGUIPort>
+        <numConnections>0</numConnections>
+    </device>
     <device id="6ER5UMP-KVYYKVY-AL5NAC6-W4KRXTB-UYRQG4R-AFWK66C-RWOULMW-EATTVQV" name="myxel" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
         <address>dynamic</address>
         <paused>false</paused>
@@ -790,12 +829,11 @@
         <remoteGUIPort>0</remoteGUIPort>
         <numConnections>0</numConnections>
     </device>
-    <gui enabled="true" tls="false" debugging="false" sendBasicAuthPrompt="false">
+    <gui enabled="true" tls="false" sendBasicAuthPrompt="false">
         <address>127.0.0.1:8384</address>
         <user>myned</user>
-        <password></password>
         <metricsWithoutAuth>false</metricsWithoutAuth>
-        <apikey></apikey>
+        <apikey>RZZyhzZxfpSzeFnrCFKYJLAsju7viTQj</apikey>
         <theme>dark</theme>
     </gui>
     <ldap></ldap>
@@ -840,7 +878,6 @@
         <stunKeepaliveStartS>180</stunKeepaliveStartS>
         <stunKeepaliveMinS>20</stunKeepaliveMinS>
         <stunServer>default</stunServer>
-        <databaseTuning>auto</databaseTuning>
         <maxConcurrentIncomingRequestKiB>0</maxConcurrentIncomingRequestKiB>
         <announceLANAddresses>true</announceLANAddresses>
         <sendFullIndexOnUpgrade>false</sendFullIndexOnUpgrade>
@@ -861,6 +898,9 @@
             <device id="UFLECA5-QQUKD5J-FQB55TE-YKKHD37-VT5ASXU-4EGUZNV-KW7Z434-FBI7CQ2" introducedBy="">
                 <encryptionPassword></encryptionPassword>
             </device>
+            <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
+                <encryptionPassword></encryptionPassword>
+            </device>
             <minDiskFree unit="%">1</minDiskFree>
             <versioning>
                 <cleanupIntervalS>3600</cleanupIntervalS>
@@ -874,15 +914,14 @@
             <ignoreDelete>false</ignoreDelete>
             <scanProgressIntervalS>0</scanProgressIntervalS>
             <pullerPauseS>0</pullerPauseS>
+            <pullerDelayS>1</pullerDelayS>
             <maxConflicts>10</maxConflicts>
             <disableSparseFiles>false</disableSparseFiles>
-            <disableTempIndexes>false</disableTempIndexes>
             <paused>false</paused>
-            <weakHashThresholdPct>25</weakHashThresholdPct>
             <markerName>.stfolder</markerName>
             <copyOwnershipFromParent>false</copyOwnershipFromParent>
             <modTimeWindowS>0</modTimeWindowS>
-            <maxConcurrentWrites>2</maxConcurrentWrites>
+            <maxConcurrentWrites>16</maxConcurrentWrites>
             <disableFsync>false</disableFsync>
             <blockPullOrder>standard</blockPullOrder>
             <copyRangeMethod>standard</copyRangeMethod>

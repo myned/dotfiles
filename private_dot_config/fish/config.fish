@@ -82,6 +82,7 @@ status is-interactive; and begin
     abbr --add --set-cursor -- cziam 'chezmoi init --apply myned'
     abbr --add --set-cursor -- czm 'chezmoi merge'
     abbr --add --set-cursor -- czma 'chezmoi merge-all'
+    abbr --add --set-cursor -- czr 'chezmoi re-add'
     abbr --add --set-cursor -- czs 'chezmoi status'
     abbr --add --set-cursor -- czt 'chezmoi chattr --recursive'
     abbr --add --set-cursor -- cztn 'chezmoi chattr --recursive noexecutable,noreadonly'
