@@ -1,7 +1,7 @@
 <configuration version="51">
     <folder id="2hmna-vfap9" label="SYNC/windows" path="~/SYNC/windows" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" fsWatcherTimeoutS="0" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="AZZZVMU-G2WA5T7-CAAAULE-2N6SVJL-RWN6RIE-THJRG6Y-QRDZ2LP-56K7BQ2" introducedBy="">
+        <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <device id="H6UYGJ6-ST2BKYH-5A45PSN-XEKYCSW-XXTE6CK-7PHKSDF-7AK6OZC-KRWNFAO" introducedBy="">
@@ -51,7 +51,7 @@
     </folder>
     <folder id="4nyqw-jfkq2" label="SYNC/edu" path="~/SYNC/edu" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" fsWatcherTimeoutS="0" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="AZZZVMU-G2WA5T7-CAAAULE-2N6SVJL-RWN6RIE-THJRG6Y-QRDZ2LP-56K7BQ2" introducedBy="">
+        <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <device id="H6UYGJ6-ST2BKYH-5A45PSN-XEKYCSW-XXTE6CK-7PHKSDF-7AK6OZC-KRWNFAO" introducedBy="">
@@ -104,7 +104,7 @@
     </folder>
     <folder id="ervqc-ebnzz" label="SYNC/owo" path="~/SYNC/owo" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" fsWatcherTimeoutS="0" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="AZZZVMU-G2WA5T7-CAAAULE-2N6SVJL-RWN6RIE-THJRG6Y-QRDZ2LP-56K7BQ2" introducedBy="">
+        <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <device id="H6UYGJ6-ST2BKYH-5A45PSN-XEKYCSW-XXTE6CK-7PHKSDF-7AK6OZC-KRWNFAO" introducedBy="">
@@ -157,7 +157,7 @@
     </folder>
     <folder id="fcsij-g7cnw" label="SYNC/common" path="~/SYNC/common" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" fsWatcherTimeoutS="0" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="AZZZVMU-G2WA5T7-CAAAULE-2N6SVJL-RWN6RIE-THJRG6Y-QRDZ2LP-56K7BQ2" introducedBy="">
+        <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <device id="H6UYGJ6-ST2BKYH-5A45PSN-XEKYCSW-XXTE6CK-7PHKSDF-7AK6OZC-KRWNFAO" introducedBy="">
@@ -213,7 +213,7 @@
     </folder>
     <folder id="fsmar-4wsd3" label="SYNC/dev" path="~/SYNC/dev" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" fsWatcherTimeoutS="0" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="AZZZVMU-G2WA5T7-CAAAULE-2N6SVJL-RWN6RIE-THJRG6Y-QRDZ2LP-56K7BQ2" introducedBy="">
+        <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <device id="H6UYGJ6-ST2BKYH-5A45PSN-XEKYCSW-XXTE6CK-7PHKSDF-7AK6OZC-KRWNFAO" introducedBy="">
@@ -266,7 +266,7 @@
     </folder>
     <folder id="gn2l3-2hxtu" label="ZEL/android" path="~/ZEL/android" type="receiveonly" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" fsWatcherTimeoutS="0" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="AZZZVMU-G2WA5T7-CAAAULE-2N6SVJL-RWN6RIE-THJRG6Y-QRDZ2LP-56K7BQ2" introducedBy="">
+        <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <device id="H6UYGJ6-ST2BKYH-5A45PSN-XEKYCSW-XXTE6CK-7PHKSDF-7AK6OZC-KRWNFAO" introducedBy="">
@@ -322,7 +322,7 @@
     </folder>
     <folder id="ieikk-bnm7u" label="SYNC/linux" path="~/SYNC/linux" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" fsWatcherTimeoutS="0" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="AZZZVMU-G2WA5T7-CAAAULE-2N6SVJL-RWN6RIE-THJRG6Y-QRDZ2LP-56K7BQ2" introducedBy="">
+        <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <device id="H6UYGJ6-ST2BKYH-5A45PSN-XEKYCSW-XXTE6CK-7PHKSDF-7AK6OZC-KRWNFAO" introducedBy="">
@@ -375,7 +375,7 @@
     </folder>
     <folder id="l6odm-rmjep" label="SYNC/admin" path="~/SYNC/admin" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" fsWatcherTimeoutS="0" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="AZZZVMU-G2WA5T7-CAAAULE-2N6SVJL-RWN6RIE-THJRG6Y-QRDZ2LP-56K7BQ2" introducedBy="">
+        <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <device id="H6UYGJ6-ST2BKYH-5A45PSN-XEKYCSW-XXTE6CK-7PHKSDF-7AK6OZC-KRWNFAO" introducedBy="">
@@ -425,7 +425,7 @@
     </folder>
     <folder id="nytcx-uwqs7" label="ZEL/music" path="~/ZEL/music" type="receiveonly" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" fsWatcherTimeoutS="0" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="AZZZVMU-G2WA5T7-CAAAULE-2N6SVJL-RWN6RIE-THJRG6Y-QRDZ2LP-56K7BQ2" introducedBy="">
+        <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <device id="H6UYGJ6-ST2BKYH-5A45PSN-XEKYCSW-XXTE6CK-7PHKSDF-7AK6OZC-KRWNFAO" introducedBy="">
@@ -481,7 +481,7 @@
     </folder>
     <folder id="oxdvq-dfzjk" label="SYNC/.backup" path="~/SYNC/.backup" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" fsWatcherTimeoutS="0" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="AZZZVMU-G2WA5T7-CAAAULE-2N6SVJL-RWN6RIE-THJRG6Y-QRDZ2LP-56K7BQ2" introducedBy="">
+        <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <device id="H6UYGJ6-ST2BKYH-5A45PSN-XEKYCSW-XXTE6CK-7PHKSDF-7AK6OZC-KRWNFAO" introducedBy="">
@@ -531,7 +531,7 @@
     </folder>
     <folder id="udj03-5kwod" label="SYNC/android/media/camera" path="~/SYNC/android/media/camera" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" fsWatcherTimeoutS="0" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="AZZZVMU-G2WA5T7-CAAAULE-2N6SVJL-RWN6RIE-THJRG6Y-QRDZ2LP-56K7BQ2" introducedBy="">
+        <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <device id="H6UYGJ6-ST2BKYH-5A45PSN-XEKYCSW-XXTE6CK-7PHKSDF-7AK6OZC-KRWNFAO" introducedBy="">
@@ -584,7 +584,7 @@
     </folder>
     <folder id="xvdpp-mxlki" label="SYNC/game" path="~/SYNC/game" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" fsWatcherTimeoutS="0" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="AZZZVMU-G2WA5T7-CAAAULE-2N6SVJL-RWN6RIE-THJRG6Y-QRDZ2LP-56K7BQ2" introducedBy="">
+        <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <device id="H6UYGJ6-ST2BKYH-5A45PSN-XEKYCSW-XXTE6CK-7PHKSDF-7AK6OZC-KRWNFAO" introducedBy="">
@@ -640,7 +640,7 @@
     </folder>
     <folder id="y3omj-gpjch" label="SYNC/android" path="~/SYNC/android" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" fsWatcherTimeoutS="0" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="AZZZVMU-G2WA5T7-CAAAULE-2N6SVJL-RWN6RIE-THJRG6Y-QRDZ2LP-56K7BQ2" introducedBy="">
+        <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <device id="H6UYGJ6-ST2BKYH-5A45PSN-XEKYCSW-XXTE6CK-7PHKSDF-7AK6OZC-KRWNFAO" introducedBy="">
@@ -693,7 +693,7 @@
     </folder>
     <folder id="yjmt6-z7u4m" label="SYNC/mac" path="~/SYNC/mac" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" fsWatcherTimeoutS="0" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="AZZZVMU-G2WA5T7-CAAAULE-2N6SVJL-RWN6RIE-THJRG6Y-QRDZ2LP-56K7BQ2" introducedBy="">
+        <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <device id="H6UYGJ6-ST2BKYH-5A45PSN-XEKYCSW-XXTE6CK-7PHKSDF-7AK6OZC-KRWNFAO" introducedBy="">
@@ -741,7 +741,7 @@
             <maxTotalSize>4096</maxTotalSize>
         </xattrFilter>
     </folder>
-    <device id="AZZZVMU-G2WA5T7-CAAAULE-2N6SVJL-RWN6RIE-THJRG6Y-QRDZ2LP-56K7BQ2" name="myork" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
+    <device id="4UVJ3YY-I5WZMNY-YHFMPGH-3SDJYKI-QB7QTTD-6UJ5UJ7-KVDG5B2-SHU6MQI" name="myork" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
         <address>dynamic</address>
         <paused>false</paused>
         <autoAcceptFolders>false</autoAcceptFolders>
