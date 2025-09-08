@@ -1,0 +1,22 @@
+# https://github.com/rafaelmardojai/firefox-gnome-theme
+{{ $url := (gitHubLatestRelease "rafaelmardojai/firefox-gnome-theme").TarballURL }}
+
+.var/app/org.mozilla.firefox/.mozilla/firefox/default/chrome/firefox-gnome-theme:
+  type: archive
+  url: {{ $url }}
+  stripComponents: 1
+
+.var/app/org.mozilla.firefox/.mozilla/firefox/work/chrome/firefox-gnome-theme:
+  type: archive
+  url: {{ $url }}
+  stripComponents: 1
+
+.mozilla/firefox/default/chrome/firefox-gnome-theme:
+  type: archive
+  url: {{ $url }}
+  stripComponents: 1
+
+.mozilla/firefox/work/chrome/firefox-gnome-theme:
+  type: archive
+  url: {{ $url }}
+  stripComponents: 1

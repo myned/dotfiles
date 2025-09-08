@@ -1,0 +1,11 @@
+/***
+https://github.com/rafaelmardojai/firefox-gnome-theme
+***/
+
+/*@import "./firefox-gnome-theme/userContent.css";*/
+
+@-moz-document url("about:newtab"), url("about:home"), url("about:blank") {
+  body {
+    background-color: #073642 !important;
+  }
+}

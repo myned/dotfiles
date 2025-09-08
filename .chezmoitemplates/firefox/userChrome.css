@@ -1,0 +1,111 @@
+/***
+https://github.com/rafaelmardojai/firefox-gnome-theme
+***/
+
+@import "./firefox-gnome-theme/userChrome.css";
+
+:root {
+  /* Palette */
+  --gnome-palette-blue-1: #268bd2;
+  --gnome-palette-blue-2: #268bd2;
+  --gnome-palette-blue-3: #268bd2;
+  --gnome-palette-blue-4: #268bd2;
+  --gnome-palette-blue-5: #268bd2;
+  --gnome-palette-green-1: #859900;
+  --gnome-palette-green-2: #859900;
+  --gnome-palette-green-3: #859900;
+  --gnome-palette-green-4: #859900;
+  --gnome-palette-green-5: #859900;
+  --gnome-palette-yellow-1: #b58900;
+  --gnome-palette-yellow-2: #b58900;
+  --gnome-palette-yellow-3: #b58900;
+  --gnome-palette-yellow-4: #b58900;
+  --gnome-palette-yellow-5: #b58900;
+  --gnome-palette-orange-1: #cb4b16;
+  --gnome-palette-orange-2: #cb4b16;
+  --gnome-palette-orange-3: #cb4b16;
+  --gnome-palette-orange-4: #cb4b16;
+  --gnome-palette-orange-5: #cb4b16;
+  --gnome-palette-red-1: #dc322f;
+  --gnome-palette-red-2: #dc322f;
+  --gnome-palette-red-3: #dc322f;
+  --gnome-palette-red-4: #dc322f;
+  --gnome-palette-red-5: #dc322f;
+  --gnome-palette-purple-1: #6c71c4;
+  --gnome-palette-purple-2: #6c71c4;
+  --gnome-palette-purple-3: #6c71c4;
+  --gnome-palette-purple-4: #6c71c4;
+  --gnome-palette-purple-5: #6c71c4;
+  --gnome-palette-brown-1: #d33682;
+  --gnome-palette-brown-2: #d33682;
+  --gnome-palette-brown-3: #d33682;
+  --gnome-palette-brown-4: #d33682;
+  --gnome-palette-brown-5: #d33682;
+  --gnome-palette-light-1: #073642;
+  --gnome-palette-light-2: #073642;
+  --gnome-palette-light-3: #073642;
+  --gnome-palette-light-4: #073642;
+  --gnome-palette-light-5: #073642;
+  --gnome-palette-dark-1: #073642;
+  --gnome-palette-dark-2: #073642;
+  --gnome-palette-dark-3: #073642;
+  --gnome-palette-dark-4: #073642;
+  --gnome-palette-dark-5: #073642;
+
+  /* Colors */
+  --gnome-accent: var(--gnome-palette-brown-1);
+  --gnome-accent-bg: var(--gnome-accent);
+  --gnome-warning-bg: #6c71c4;
+
+  /* Window */
+  --gnome-window-background: #002b36;
+  --gnome-window-color: #93a1a1;
+  --gnome-view-background: #002b36;
+  --gnome-sidebar-background: #073642;
+  --gnome-secondary-sidebar-background: #073642;
+
+  /* Card */
+  --gnome-card-background: #073642;
+  --gnome-card-shade-color: rgba(0, 0, 0, 0.07);
+
+  /* Menu */
+  --gnome-menu-background: #073642;
+
+  /* Headerbar */
+  --gnome-headerbar-background: #073642;
+  --gnome-headerbar-shade-color: rgba(0, 0, 0, 0.07);
+
+  /* Toolbar */
+  --gnome-toolbar-icon-fill: #93a1a1;
+
+  /* Tabs */
+  --gnome-tabbar-tab-hover-background: color-mix(in srgb, #073642, #586e75 10%);
+  --gnome-tabbar-tab-active-hover-background: color-mix(in srgb, #073642, #657b83 25%);
+  --gnome-tabbar-tab-active-background: color-mix(in srgb, #073642, #586e75 20%);
+  --gnome-tabbar-tab-active-background-contrast: color-mix(in srgb, #073642, #586e75 30%);
+
+  /* Private Tabs */
+  --gnome-private-wordmark: #839496;
+  --gnome-private-in-content-page-background: #002b36;
+  --gnome-private-text-primary-color: #839496;
+
+  &:-moz-window-inactive {
+    --gnome-tabbar-tab-hover-background: var(--gnome-tabbar-tab-hover-background);
+    --gnome-tabbar-tab-active-background: var(--gnome-tabbar-tab-active-background);
+
+    /* Disable inactive window colors */
+    --gnome-sidebar-background: var(--gnome-sidebar-background);
+    --gnome-secondary-sidebar-background: var(--gnome-secondary-sidebar-background);
+    --gnome-window-background: var(--gnome-window-background);
+  }
+}
+
+/* Center bookmarks */
+#PlacesToolbarItems {
+  justify-content: center;
+}
+
+/* Disable bookmark folder icons */
+.bookmark-item[container] > .toolbarbutton-icon {
+  display: none;
+}
