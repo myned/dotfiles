@@ -6,6 +6,6 @@ https://github.com/rafaelmardojai/firefox-gnome-theme
 
 @-moz-document url("about:newtab"), url("about:home"), url("about:blank") {
   body {
-    background-color: #073642 !important;
+    background-color: #222226 !important;
   }
 }
